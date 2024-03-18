@@ -1,0 +1,89 @@
+.intro {
+    ul {
+        margin-top: 30px;
+        border-left: 1px solid $base;
+        margin-left: 15px;
+        padding-left: 50px;
+        max-width: 700px;
+
+        @include medium {
+            padding-left: 70px;
+        }
+
+        li {
+            position: relative;
+            margin-bottom: 55px;
+
+            @include medium {
+                margin-bottom: 70px;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                background-color: $graphite;
+                display: block;
+                top: 0;
+                border-radius: 2px;
+                left: -65px;
+
+                @include medium {
+                    left: -85px;
+                }
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background-color: $contrast;
+                display: block;
+                top: 9px;
+                border-radius: 2px;
+                z-index: 99;
+                left: -56px;
+
+                @include medium {
+                    left: -75px;
+                }
+            }
+
+            strong {
+                color: #fff;
+                font-family: teko;
+                display: flex;
+                gap: 3px;
+                align-items: center;
+                text-transform: uppercase;
+
+                p {
+                    font-size: 24px;
+
+                    span {
+                        color: $contrast;
+                        font-size: 12px;
+                        font-family: 'roboto', sans-serif;
+                        position: relative;
+                        top: -2px;
+                    }
+                }
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .year {
+                padding: 5px 10px;
+                background-color: $graphite;
+                display: inline-block;
+                font-size: 12px;
+                border-radius: 2px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

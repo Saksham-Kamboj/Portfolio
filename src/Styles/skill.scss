@@ -1,0 +1,55 @@
+.skills {
+    padding: 25px 0;
+
+    @include medium {
+        padding: 50px 0;
+    }
+
+    ul {
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        @include medium {
+            gap: 50px 120px;
+        }
+
+        li {
+            position: relative;
+            width: 100%;
+
+            @include medium {
+                width: calc(50% - 60px);
+            }
+
+            .percentage {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .progress-bar {
+                background-color: $base;
+                overflow: hidden;
+                width: 100%;
+                position: relative;
+                height: 5px;
+                border: 2px;
+
+                .progress {
+                    position: absolute;
+                    width: 0%;
+                    background-color: $contrast;
+                    height: 100%;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
