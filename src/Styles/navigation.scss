@@ -1,124 +1,87 @@
-
 .navbar {
+  background-color: #000 !important;
+  padding: 15px 40px !important;
+  width: 100%;
+
+
+  @media screen and (max-width: 767px) {
+    padding: 10px 10px !important;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    color: $contrast;
+  }
+
+  .navbar-toggler {
+    background-color: $base;
+
+    .navbar-toggler-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .offcanvas {
     background-color: #000 !important;
-    padding: 15px 60px !important;
 
-    @media screen and (max-width: 767px) { 
-        padding: 10px 10px !important;
+    @media screen and (max-width: 767px) {
+      max-width: 50% !important;
     }
+  }
 
+  .offcanvas-title {
+    font-size: 24px;
+    color: $contrast;
+  }
 
-    .navbar-brand {
-        font-size: 24px;
-        color: $contrast;
-    }
+  .btn-close {
+    background-color: $base;
+    border-color: $contrast;
+  }
 
-    .navbar-toggler {
-        background-color: $base;
-        // border-color: $contrast;
+  ul {
+    gap: 20px !important;
 
-        .navbar-toggler-icon{
-            width: 20px;
-            height: 20px;
+    li a {
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+
+      &:after {
+        content: "";
+        height: 2px;
+        width: 0%;
+        background-color: $contrast;
+        display: block;
+        transition: width ease 0.3s;
+      }
+
+      &.active {
+        background-color: $graphite;
+        color: #fff;
+        pointer-events: none;
+
+        &::after {
+          width: 100%;
+          content: "";
         }
-    }
+      }
 
-    .offcanvas {
-        background-color: #000 !important;
-    
-        @media screen and (max-width: 767px) { 
-            max-width: 50% !important;
+      &:hover {
+        background-color: $graphite;
+        color: #fff;
+        transform: scale(1.1);
+
+        &::after {
+          width: 100%;
+          content: "";
         }
+      }
     }
-
-    .offcanvas-title {
-        font-size: 24px;
-        color: $contrast;
-    }
-
-    .btn-close{
-        background-color: $base;
-        border-color: $contrast;
-    }
-
-
-    ul {
-        gap: 20px !important;
-
-        li a {
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 600;
-            color: #fff;
-
-            &:after {
-                content: "";
-                height: 2px;
-                width: 0%;
-                background-color: $contrast;
-                display: block;
-                transition: width ease 0.3s;
-            }
-
-            &.active {
-                background-color: $graphite;
-                color: #fff;
-                pointer-events: none;
-
-                &::after {
-                    width: 100%;
-                    content: "";
-                }
-            }
-
-            &:hover {
-                background-color: $graphite;
-                color: #fff;
-                transform: scale(1.1);
-
-                &::after {
-                    width: 100%;
-                    content: "";
-                }
-            }
-        }
-    }
-
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // nav {
 //     color: #fff;

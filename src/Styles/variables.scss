@@ -3,6 +3,11 @@ $graphite: #2e2e2e;
 $base: #a9a9a9;
 $dark: #131212;
 
+@mixin small {
+  @media screen and (min-width: 380px) {
+    @content;
+  }
+}
 @mixin medium {
   @media screen and (min-width: 768px) {
     @content;
