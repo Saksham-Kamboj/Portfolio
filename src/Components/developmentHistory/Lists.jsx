@@ -1,19 +1,25 @@
-import React from 'react'
+import React from "react";
 
-function Lists({obj}) {
+function Lists({ obj }) {
   return (
     <ul>
-      {obj.map((list,ind) => (
+      {obj.map((list, ind) => (
         <li key={ind}>
-            <div className="year">{list.year}</div>
-            <strong>
-                <p>{list.heading} - <span>{list.subheading}</span></p>
-            </strong>
-            <p>{list.description}</p>
+          <div className="year" data-aos="zoom-out" data-aos-duration="1500">
+            {list.year}
+          </div>
+          <strong>
+            <p data-aos="zoom-out" data-aos-duration="1500">
+              {list.heading} - <span>{list.subheading}</span>
+            </p>
+          </strong>
+          <p data-aos="zoom-out" data-aos-duration="1500">
+            {list.description}
+          </p>
         </li>
       ))}
     </ul>
-  )
+  );
 }
 
-export default Lists
+export default Lists;

@@ -7,7 +7,8 @@ import work7 from "../assets/work7.jpg";
 import work10 from "../assets/work10.png";
 import work11 from "../assets/MERN.png";
 import next from "../assets/work11.png";
-
+import voltsec from "../assets/voltsec.png";
+import textile from "../assets/textile.png";
 
 export const tabLink = ["MERN", "NEXT", "REACT", "HTML/CSS/JAVASCRIPT"];
 export const tabData = [
@@ -19,7 +20,7 @@ export const tabData = [
     image: work1,
     source: "https://healthyfood111.netlify.app/",
     description:
-      "Explore this food website I developed with HTML and CSS. Explore tasty recipes and culinary journeys, showcasing my development skills in action.",
+      "Check out this culinary website I crafted using HTML and CSS. Delve into mouthwatering recipes and culinary adventures, putting my development prowess on display.",
   },
   {
     type: "HTML/CSS/JAVASCRIPT",
@@ -29,7 +30,7 @@ export const tabData = [
     image: work3,
     source: "https://oneuicolor.netlify.app/",
     description:
-      "Check out my cool website! I made it using just one color with HTML and CSS.It looks clean and cool, a simple design, showing off my web design skills.",
+      "Take a look at my awesome website! I crafted it using only one color using HTML and CSS. It boasts a sleek and cool appearance, featuring a minimalist design that showcases my prowess in web design.",
   },
   {
     type: "HTML/CSS/JAVASCRIPT",
@@ -39,7 +40,7 @@ export const tabData = [
     image: work4,
     source: "https://my-gym-0.netlify.app/",
     description:
-      "Explore my GYM website, coded by me using HTML and CSS. Dynamic design for fitness enthusiasts.A testament to my web development skills, offering an interactive and engaging workout experience.",
+      "Discover my custom-designed GYM website, crafted with HTML and CSS, tailored specifically for fitness enthusiasts. With a dynamic layout, it showcases my prowess in web development, providing an immersive and interactive workout experience.",
   },
   {
     type: "HTML/CSS/JAVASCRIPT",
@@ -49,7 +50,7 @@ export const tabData = [
     image: work5,
     source: "https://snake-game-02.netlify.app/",
     description:
-      "Experience my personally crafted Snake game! Using HTML, CSS, and JavaScript, showcasing my coding skills in an interactive and enjoyable gaming experience.",
+      "Explore my custom-built Snake game! Crafted with HTML, CSS, and JavaScript, it demonstrates my coding prowess in an engaging and entertaining gaming environment.",
   },
   {
     type: "HTML/CSS/JAVASCRIPT",
@@ -59,7 +60,7 @@ export const tabData = [
     image: work6,
     source: "https://facebook-clone012.netlify.app/",
     description:
-      "Explore my Facebook redesign, crafted with HTML, CSS, and JavaScript.My design offers a fresh and user-friendly twist to the familiar interface.",
+      "Discover my Facebook redesign, meticulously crafted using HTML, CSS, and JavaScript. Immerse yourself in its modern and intuitive interface, offering a delightful twist on the familiar user experience.",
   },
   {
     type: "HTML/CSS/JAVASCRIPT",
@@ -69,7 +70,7 @@ export const tabData = [
     image: work7,
     source: "https://travel-agency-01.netlify.app/",
     description:
-      "Experience my Travel website, personally coded with HTML, CSS, and JavaScript. Dynamic design, interactive features, and personalized experiences reflect my coding skills.",
+      "Explore my personally crafted Travel website, meticulously coded using HTML, CSS, and JavaScript. Immerse yourself in its dynamic design, engaging interactive elements, and tailor-made experiences, showcasing the depth of my coding proficiency.",
   },
   {
     type: "REACT",
@@ -79,7 +80,17 @@ export const tabData = [
     image: work10,
     source: "https://recipeapp012.netlify.app/",
     description:
-      "This website has been built with the help of React.js. Food details are show using API. This website is user friendly. You look and feel it.",
+      "This website was developed using React.js, with food details fetched through an API. Its user-friendly design ensures a seamless browsing experience, evident in its look and feel.",
+  },
+  {
+    type: "NEXT",
+    tabTitle: "Dynamic / UI Designs",
+    title: "VoltSec.io",
+    tags: ["Next.js", "Sanity"],
+    image: voltsec,
+    source: "https://www.voltsec-io.com",
+    description:
+      "Discover VoltSec.io, where I've built the website's look and feel using Next.js. Plus, I've set up the blogging system using Sanity. Enjoy easy navigation and explore the latest cybersecurity insights in a user-friendly way.",
   },
   {
     type: "NEXT",
@@ -89,7 +100,17 @@ export const tabData = [
     image: next,
     source: "https://real-e-state-dusky.vercel.app",
     description:
-      "This website has been built with the help of Next.Js, Tailwind css and Sanity Studio. This is my internship project",
+      "This website was developed as part of my internship project, utilizing Next.js, Tailwind CSS, and Sanity Studio",
+  },
+  {
+    type: "NEXT",
+    tabTitle: "Dynamic / UI Designs",
+    title: "Textile eCommerce",
+    tags: ["Next.js", "Tailwind CSS", "Sanity Studio"],
+    image: textile,
+    source: "https://textile-ecom.vercel.app",
+    description:
+      "Experience seamless textile shopping with our E-commerce platform. Built using Next.js and Sanity, it offers intuitive design and smooth functionality. Explore a variety of textile products effortlessly. Discover the future of shopping today.",
   },
   {
     type: "MERN",
@@ -99,6 +120,6 @@ export const tabData = [
     image: work11,
     source: "https://instaapp-99jz.onrender.com",
     description:
-      "The website is powered by React.js for dynamic user interface, Node.js and Express for robust backend, and MongoDB for scalable data storage. This website has few features that a social media app has.",
+      "The website utilizes React.js to create a dynamic user interface, Node.js and Express for a strong backend, and MongoDB for scalable data storage. It incorporates several features commonly found in social media apps.",
   },
 ];
