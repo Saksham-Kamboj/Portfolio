@@ -3,18 +3,18 @@ import Lists from "./Lists";
 function Employment() {
   const obj = [
     {
-      year: "01 Sep 2023 - 30 Sep 2023",
-      heading: "Web Development",
-      subheading: "CodSoft",
-      description:
-        "During my stint at CodSoft from September 2023 to September 2023, I accomplished a FRONTEND DEVELOPMENT virtual internship. Throughout this experience, I crafted several web applications utilizing HTML, CSS, and JavaScript.",
-    },
-    {
-      year: "02 March 2024 - Present",
-      heading: "Frontend Web Development",
+      year: "October 2023 - March 2024",
+      heading: "Frontend Web Developer Intern",
       subheading: "CodeMevel Pvt Ltd",
       description:
-        "I've been actively engaged in frontend web development. My responsibilities include designing and implementing user interfaces using modern web technologies such as NEXT.Js. I collaborate closely with backend developers to create seamless and visually appealing web experiences. My role involves staying updated with industry trends and best practices to ensure the delivery of high-quality and responsive web applications.",
+        "Developed and maintained various web applications using a stack including React.js, Next.js, Tailwindcss, Typescript & Sanity.io.  Collaborated with the design team to create visually appealing and userfriendly interfaces for web projects. ",
+    },
+    {
+      year: "January 2024 - March 2024",
+      heading: "Frontend Web Developer ",
+      subheading: "Voltsec.io | Cybersecurity PTaaS",
+      description:
+        "Worked closely with the frontend development team to implement user interface components using Next.js and Tailwind CSS. Collaborated on the design and development of dashboard for Voltsec.io's PTaaS platform. ",
     },
   ];
   return (
