@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { tabLink, tabData } from "./Data.js";
 
 function MyProjects() {
