@@ -2,27 +2,27 @@ function Skills() {
   const skillsData = [
     {
       skill: "HTML 5",
-      proficiency: "95",
+      proficiency: "100",
     },
     {
       skill: "CSS 3",
-      proficiency: "80",
+      proficiency: "100",
     },
     {
       skill: "Tailwind CSS",
-      proficiency: "80",
+      proficiency: "100",
     },
     {
       skill: "JavaScript",
-      proficiency: "50",
+      proficiency: "60",
     },
     {
       skill: "React JS",
-      proficiency: "60",
+      proficiency: "70",
     },
     {
       skill: "Next JS",
-      proficiency: "60",
+      proficiency: "70",
     },
     {
       skill: "Node JS",
