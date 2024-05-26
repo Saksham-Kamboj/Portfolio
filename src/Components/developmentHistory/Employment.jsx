@@ -3,18 +3,11 @@ import Lists from "./Lists";
 function Employment() {
   const obj = [
     {
-      year: "October 2023 - March 2024",
+      year: "Feburary 2024 - Present",
       heading: "Frontend Web Developer Intern",
       subheading: "CodeMevel",
       description:
-        "Developed and maintained various web applications using a stack including React.js, Next.js, Tailwindcss, Typescript & Sanity.io.  Collaborated with the design team to create visually appealing and userfriendly interfaces for web projects. ",
-    },
-    {
-      year: "January 2024 - March 2024",
-      heading: "Voltsec.io | Blogs | Dashboard Elements",
-      subheading: "CodeMevel",
-      description:
-        "Worked closely with the frontend development team to implement user interface components using Next.js and Tailwind CSS. Collaborated on the design and development of dashboard for Voltsec.io's PTaaS platform. ",
+        "Developed and maintained various web applications using a stack including React.js, Next.js, Tailwindcss, Typescript & Sanity.io. Collaborated with the design team to create visually appealing and user friendly interfaces for web projects. ",
     },
   ];
   return (
