@@ -7,7 +7,7 @@ function Resume() {
       year: "2020 - 2024",
       heading: "BACHELOR OF TECHNOLOGY",
       subheading: "Uttarakhand Technical University",
-      description: "Currently i am parsuing B.Tech in computer science.",
+      description: "I have graduated from the COLLEGE OF ENGINEERING ROORKEE in the field of computer science and engineering.",
     },
     {
       year: "2016 - 2017",

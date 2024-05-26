@@ -6,6 +6,7 @@ import work6 from "../assets/work6.jpg";
 import work7 from "../assets/work7.jpg";
 import work10 from "../assets/work10.png";
 import work11 from "../assets/MERN.png";
+import work12 from "../assets/Whatsapp.png";
 import next from "../assets/work11.png";
 import voltsec from "../assets/voltsec.png";
 import textile from "../assets/textile.png";
@@ -115,11 +116,21 @@ export const tabData = [
   {
     type: "MERN",
     tabTitle: "Full stack website",
-    title: "Social Media",
+    title: "Instagram",
     tags: ["React.js", "Node.JS", "Express", "MongoDB"],
     image: work11,
     source: "https://instaapp-99jz.onrender.com",
     description:
       "The website utilizes React.js to create a dynamic user interface, Node.js and Express for a strong backend, and MongoDB for scalable data storage. It incorporates several features commonly found in social media apps.",
+  },
+  {
+    type: "MERN",
+    tabTitle: "Full stack website",
+    title: "Whatsapp",
+    tags: ["Next.js", "Node.JS", "Express", "MongoDB"],
+    image: work12,
+    source: "",
+    description:
+      "The project integrates essential whatsapp functionalities, providing users with a comprehensive messaging experience. Key features include real-time chat, user authentication, and secure data storage, demonstrating the effective combination of modern web technologies in a cohesive application.",
   },
 ];

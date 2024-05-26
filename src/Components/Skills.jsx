@@ -36,6 +36,18 @@ function Skills() {
       skill: "Express JS",
       proficiency: "20",
     },
+    {
+      skill: "Prisma",
+      proficiency: "50",
+    },
+    {
+      skill: "Sanity.io",
+      proficiency: "50",
+    },
+    {
+      skill: "Git",
+      proficiency: "50",
+    },
   ];
   return (
     <section className="skills" id="skills">
