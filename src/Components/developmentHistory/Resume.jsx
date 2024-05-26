@@ -4,7 +4,7 @@ import Lists from "./Lists";
 function Resume() {
   const obj = [
     {
-      year: "2020 - Present",
+      year: "2020 - 2024",
       heading: "BACHELOR OF TECHNOLOGY",
       subheading: "Uttarakhand Technical University",
       description: "Currently i am parsuing B.Tech in computer science.",
