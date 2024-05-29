@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       {loading ? (
         <HashLoader
           color={"#E5540A"}
@@ -59,7 +59,7 @@ function App() {
           <InitAOS />
         </>
       )}
-    </>
+    </div>
   );
 }
 
